@@ -4,6 +4,7 @@ int Tdn = int.Parse(Console.ReadLine());
 int thirdDigit = Tdn / 10 % 10;
 Console.Write(thirdDigit);
 */
+
 /*
 int number = ReadInt("Enter digits: ");
 int count = number.ToString().Length;
@@ -57,3 +58,42 @@ else
     Console.Write("No");
 }
 */
+int Prompt(string message)
+{
+    Console.Write(message);
+    string value = Console.ReadLine();
+    int result = Convert.ToInt32(value);
+    return result;
+}
+
+bool IsWeekend(int weekDay)
+{
+    if (weekDay > 5)
+    {
+        return true;
+    }
+    return false;
+}
+
+bool ValidateWeekday(int number)
+{
+    if (number > 0 && number <= 7)
+    {
+        return true;
+    }
+    Console.WriteLine(" is not a week day!");
+    return false;
+}
+
+int weekDay = Prompt("Enter Day of week >");
+if (ValidateWeekday(weekDay))
+{
+    if (IsWeekend(weekDay))
+    {
+        Console.WriteLine("We have day off)))");
+    }
+    else
+    {
+        Console.WriteLine("We must work)))");
+    }
+}
