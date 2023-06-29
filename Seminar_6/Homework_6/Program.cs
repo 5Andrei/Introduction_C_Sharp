@@ -43,3 +43,18 @@ int CountingOfPositiveDigits(int[] massiv)
     }   return pieces;
 }
 */
+/*
+Console.WriteLine("Enter b1:");
+double b1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Enter k1:");
+double k1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Enter b2:");
+double b2 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Enter k2:");
+double k2 = Convert.ToInt32(Console.ReadLine());
+
+double axisX = (b2 - b1) / (k1 - k2);
+double axisY = k1 * axisX + b1;
+
+Console.WriteLine($"Point of intersection of two straight lines = X: {axisX}, Y: {axisY}");
+*/
