@@ -18,6 +18,7 @@ string GetStringOfNumbers(int start, int end)
 }
 Console.WriteLine($" '{GetStringOfNumbers(N, 1)}' ");
 */
+
 /*
 Console.Write("Введите число M: ");
 int M = Convert.ToInt32(Console.ReadLine());
@@ -42,8 +43,6 @@ string GetStringOfNumbers(int start, int end, int sum)
 }
 GetStringOfNumbers(M, N, 0);
 */
-﻿// Задача 68: Напишите программу вычисления функции Аккермана с помощью рекурсии. 
-// Даны два неотрицательных числа m и n.
 
 /*
 int m = InputNumbers("Enter m: ");
